@@ -14,3 +14,7 @@ class IsUniqueTest extends FlatSpec with Matchers {
     IsUnique.isUnique("1hc3uef9@@") shouldBe false
   }
 }
+
+object IsUniqueTest {
+  def main(args: Array[String]): Unit = {}
+}
